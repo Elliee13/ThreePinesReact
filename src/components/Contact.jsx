@@ -46,7 +46,7 @@ export default function Contact() {
 
                     <div className="min-w-0">
                       <div className="text-sm font-semibold">Address</div>
-                      <p className="mt-1 text-sm text-basalt-700 dark:text-basalt-200/90">Montana-based Headquarters</p>
+                      <p className="mt-1 text-sm text-basalt-700 dark:text-basalt-200/90">2506 North Moore Ave, Moore, Oklahoma, United States 73160</p>
                       <p className="mt-2 text-xs text-basalt-600 dark:text-basalt-200/80">Serving statewide and beyond.</p>
                     </div>
                   </div>
@@ -70,7 +70,7 @@ export default function Contact() {
                           href="tel:+14065550123"
                           className="text-sm font-semibold text-basalt-900 dark:text-basalt-50 no-underline hover:underline"
                         >
-                          (406) 555-0123
+                          +1.4054732815
                         </a>
                       </div>
                       <p className="mt-2 text-xs text-basalt-600 dark:text-basalt-200/80">Call us directly.</p>
@@ -95,7 +95,7 @@ export default function Contact() {
                           href="mailto:info@threepinesindustries.com"
                           className="text-sm font-semibold text-basalt-900 dark:text-basalt-50 no-underline hover:underline break-words [overflow-wrap:anywhere]"
                         >
-                          info@threepinesindustries.com
+                          mike.horton@bcapparel.com
                         </a>
                       </div>
                       <p className="mt-2 text-xs text-basalt-600 dark:text-basalt-200/80">Send us an email.</p>
