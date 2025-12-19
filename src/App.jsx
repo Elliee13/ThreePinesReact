@@ -24,7 +24,7 @@ export default function App() {
 
       <SiteHeader />
 
-      <main className="pt-23 md:pt-26">
+      <main className="pt-24 md:pt-28">
         <Hero />
         <About />
         <Divisions />
