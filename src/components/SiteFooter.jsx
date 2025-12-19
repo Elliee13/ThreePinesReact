@@ -16,11 +16,29 @@ export default function SiteFooter() {
       <div className="container-shell relative z-10">
         <div className="glass rounded-2xl p-6 sm:p-7">
           <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
-            <div>
-              <div className="font-display font-semibold tracking-tight text-lg">Three Pines Industries</div>
-              <div className="mt-1 text-sm text-basalt-600 dark:text-basalt-200/80">Native American-owned Montana company</div>
+            {/* Brand */}
+            <div className="flex items-center gap-3">
+              <img
+                src="/ThreePinesLogo(1).svg"
+                alt="Three Pines Industries logo"
+                className="h-6 w-6 shrink-0 object-contain"
+                loading="lazy"
+              />
+
+              <div>
+                <div className="font-display font-semibold tracking-tight text-lg">
+                  Three Pines Industries
+                </div>
+
+                <div className="text-xs text-basalt-600 dark:text-basalt-200/80">
+                  <span className="font-semibold text-basalt-900 dark:text-basalt-50">
+                    Owned by Perry Proctor.
+                  </span>
+                </div>
+              </div>
             </div>
 
+            {/* Footer nav */}
             <nav className="flex flex-wrap gap-3 text-sm">
               <a className="btn-ghost no-underline px-3 py-2" href="#about">About</a>
               <a className="btn-ghost no-underline px-3 py-2" href="#divisions">Divisions</a>
@@ -29,8 +47,9 @@ export default function SiteFooter() {
             </nav>
           </div>
 
+
           <div className="mt-6 pt-6 border-t border-basalt-200/60 dark:border-basalt-700/60 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
-            <p className="text-xs text-basalt-600 dark:text-basalt-200/80">© {year} Three Pines Industries. All rights reserved.</p>
+            <p className="text-xs text-basalt-600 dark:text-basalt-200/80">© {year} Three Pines Industries. All rights reserved.</p>    
             <div className="flex items-center gap-2 text-xs text-basalt-600 dark:text-basalt-200/80">
               <span className="h-2 w-2 rounded-full bg-glacier-600" />
               <span className="h-2 w-2 rounded-full bg-pine-600" />

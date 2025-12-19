@@ -9,7 +9,6 @@ export default function About() {
             <p className="lead mt-4">
               <span className="font-semibold text-basalt-900 dark:text-basalt-50">Three Pines Industries is a Native American–owned Montana company</span>{" "}
               built to support procurement needs across public and private sectors—without sacrificing quality, clarity, or accountability.{" "}
-              <span className="font-semibold text-basalt-900 dark:text-basalt-50">Owned by Perry Proctor.</span>
             </p>
 
             <div className="mt-6 grid sm:grid-cols-2 gap-4">

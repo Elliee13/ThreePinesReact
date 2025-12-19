@@ -20,12 +20,12 @@ export default function SiteHeader() {
       <div className="container-shell pt-3">
         <div className="glass rounded-2xl px-4 sm:px-5 py-3 flex items-center justify-between">
           <a href="#home" className="group inline-flex items-center gap-3 no-underline">
-            <span className="relative grid place-items-center h-10 w-10 rounded-xl bg-gradient-to-br from-glacier-600 to-pine-600 text-white shadow-soft">
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                <path d="M12 2l3 6h-6l3-6Z" fill="currentColor" opacity=".95" />
-                <path d="M12 7l4 7H8l4-7Z" fill="currentColor" opacity=".85" />
-                <path d="M12 13l5 9H7l5-9Z" fill="currentColor" opacity=".75" />
-              </svg>
+            <span className="relative grid place-items-center h-10 w-10 rounded-xl text-white">
+              <img
+                src="/ThreePinesLogo.svg"
+                alt="Three Pines Industries"
+                className="h-10 w-10 rounded-xl object-contain"
+              />
             </span>
 
             <div className="leading-tight">

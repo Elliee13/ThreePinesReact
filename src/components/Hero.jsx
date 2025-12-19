@@ -53,7 +53,7 @@ export default function Hero() {
               </span>
             </h1>
 
-            <p className="mt-5 lead max-w-2xl reveal">
+            <p className="mt-5 lead max-w-2xl reveal hidden">
               Native American-owned Montana company providing apparel programs, branded merchandise, and reliable fulfillment.{" "}
               <span className="font-semibold text-basalt-900 dark:text-basalt-50">Owned by Perry Proctor.</span>
             </p>
